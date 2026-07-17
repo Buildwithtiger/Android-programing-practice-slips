@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EiditText
+        android:id:="@+id/eiditText"
+        android:Layout_width="wrap_content"
+        android:Layout_height="wrap_content"
+        android:ems="10"
+        android:input_type="number"
+        app:layout_constraintbottom_toBottomof="parent"
+        app:layout_constraintEnd_toEndof="parent"
+        app:layout_constraintHorizantal_bais="0.497"
+        app:layout_constraintStart_toStartof="parent"
+        app:layout_constraintTop_toTopof="parent"
+        app:layout_constraintVertical_bais="0.153"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Submit"
+        android:layout_constraintbottom_toBottomof="parent"
+        android:layout_constraintEnd_toEndof="parent"
+        android:layout_constraintStart_toStartof="parent"
+        tools:layout_editor_absoluteX="395dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
